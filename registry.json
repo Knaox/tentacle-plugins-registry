@@ -18,7 +18,7 @@
           "minTentacleVersion": "0.9.0",
           "maxTentacleVersion": null,
           "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.0.0/plugin-seer-v1.0.0.tar.gz",
-          "checksum": "sha256:629dcb9a29c9f94e49d317089d1625627826db9ea80f94e7207d5d82375fa3d9",
+          "checksum": "sha256:56e16047264f8e5f47d5cad5b840eba319b287ebcddf79e9e0a7079782c60d68",
           "changelog": "Version initiale - plugin standalone IIFE",
           "releaseDate": "2026-03-01"
         }
