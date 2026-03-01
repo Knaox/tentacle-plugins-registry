@@ -18,7 +18,7 @@
           "minTentacleVersion": "0.9.0",
           "maxTentacleVersion": null,
           "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v0.10.0-beta/plugin-seer-v0.10.0-beta.tar.gz",
-          "checksum": "sha256:93e1b38741578ce756da7a892019819adb8be6fde5ee53525f07953a504122ef",
+          "checksum": "sha256:d80f1e9731fa9e81098fa5ba64c6545173f7361a4a3d743e99805e662d485ec1",
           "changelog": "Beta - i18n fix, direct Seerr connection test, config lookup fix",
           "releaseDate": "2026-03-01"
         }
