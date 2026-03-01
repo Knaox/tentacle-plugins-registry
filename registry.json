@@ -11,15 +11,15 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.0.0",
+      "latestVersion": "0.10.0-beta",
       "versions": [
         {
-          "version": "1.0.0",
+          "version": "0.10.0-beta",
           "minTentacleVersion": "0.9.0",
           "maxTentacleVersion": null,
-          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.0.0/plugin-seer-v1.0.0.tar.gz",
-          "checksum": "sha256:9795eeacf6286c49f5a209d1880f5483b438b820c5f34568c93269566a6fbbb4",
-          "changelog": "Version initiale - plugin standalone IIFE",
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v0.10.0-beta/plugin-seer-v0.10.0-beta.tar.gz",
+          "checksum": "sha256:00e1938f30c54f68aaaff3e3eef590d00c2a52c0f86e914696aebc03836b9c0f",
+          "changelog": "Beta - display fixes, season status, immediate request feedback",
           "releaseDate": "2026-03-01"
         }
       ],
