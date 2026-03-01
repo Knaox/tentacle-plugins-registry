@@ -6,8 +6,8 @@
   "plugins": [
     {
       "id": "seer",
-      "name": "Seer - Demandes de medias",
-      "description": "Demandez des films et series via Seerr / Overseerr. Decouvrez du contenu par plateforme, demandez en 1 clic, suivez vos demandes.",
+      "name": "Seer - Media Requests",
+      "description": "Request movies and TV series via Seerr / Overseerr. Discover content, request in 1 click, track your requests.",
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
@@ -18,7 +18,7 @@
           "minTentacleVersion": "0.9.0",
           "maxTentacleVersion": null,
           "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v0.10.0-beta/plugin-seer-v0.10.0-beta.tar.gz",
-          "checksum": "sha256:8ae02fe774ef82834b915e5c9d79297b2201b36f9241f721229ac55f83fb8181",
+          "checksum": "sha256:8f51b4fe7a8b1d6854e78dcb3c3b4f1ce3b8c0acb52752b41b9f737a6f91634e",
           "changelog": "Beta - i18n fix, direct Seerr connection test, config lookup fix",
           "releaseDate": "2026-03-01"
         }
