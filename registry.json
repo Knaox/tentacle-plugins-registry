@@ -18,7 +18,7 @@
           "minTentacleVersion": "0.9.0",
           "maxTentacleVersion": null,
           "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.0.0-beta/plugin-seer-v1.0.0-beta.tar.gz",
-          "checksum": "sha256:d7c1c258bf7e12df02c4e046f090dfe742fb35b67383cedc6f132829789860bd",
+          "checksum": "sha256:6afdd3fd9ec783b2528e74aec36aad6011850b58def086942b1b1241bad3b0cc",
           "changelog": "Backend queue system, notifications, stats, enhanced UI with posters and progress bars, cast display, Seerr/Overseerr compatibility",
           "releaseDate": "2026-03-02"
         },
