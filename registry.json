@@ -18,9 +18,9 @@
           "minTentacleVersion": "0.9.0",
           "maxTentacleVersion": null,
           "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.1.0-beta/plugin-seer-v1.1.0-beta.tar.gz",
-          "checksum": "sha256:b6742ae00ba66f31aaacc63d49c0bed00c99c5b7b05c973e9c05210fa5e4f17f",
-          "changelog": "Complete frontend overhaul: hero carousel, infinite scroll, glassmorphism search, platform filters, media card hover effects, detail modal with trailers/providers/similar, toast notifications, dynamic language detection, anime filter fix",
-          "releaseDate": "2026-03-02"
+          "checksum": "sha256:50c6bb0bdae816fd9d6768ab9c14a5f84b05a822579aa4c2aee14cae1d0e82fc",
+          "changelog": "Mobile support, navItems navigation (discover/requests/stats), modal overlay fix, similar media navigation, worker config, search bar, keyframes, error handling, discover grid, hero layout",
+          "releaseDate": "2026-03-06"
         },
         {
           "version": "1.0.0-beta",
