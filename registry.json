@@ -17,7 +17,7 @@
           "version": "1.3.0-beta",
           "minTentacleVersion": "1.1.0",
           "maxTentacleVersion": null,
-          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.3.0-beta/tentacle-plugin-seer-1.3.0-beta.tar.gz",
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.3.0-beta/plugin-seer-v1.3.0-beta.tar.gz",
           "checksum": "sha256:b230b5a7d17e5457a4ce00dc5cd12058098396c900a48c7bd2964428f20d2e2b",
           "changelog": "Visual overhaul (MediaCard, HeroCarousel, CastRow, SimilarMedia, MediaDetailModal), toast repositioned to bottom, fix request status mapping (Seer pending no longer shows as downloading), fix toast animation, improved UX on requests page, completed FR/EN translations",
           "releaseDate": "2026-03-07"
