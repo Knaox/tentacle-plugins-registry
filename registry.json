@@ -18,7 +18,7 @@
           "minTentacleVersion": "0.9.0",
           "maxTentacleVersion": null,
           "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.1.0-beta/plugin-seer-v1.1.0-beta.tar.gz",
-          "checksum": "sha256:50c6bb0bdae816fd9d6768ab9c14a5f84b05a822579aa4c2aee14cae1d0e82fc",
+          "checksum": "sha256:c94890baa25ff2603376ebb05d27f8b46151f4f21dfd66ac24ae3437316af50d",
           "changelog": "Mobile support, navItems navigation (discover/requests/stats), modal overlay fix, similar media navigation, worker config, search bar, keyframes, error handling, discover grid, hero layout",
           "releaseDate": "2026-03-06"
         },
