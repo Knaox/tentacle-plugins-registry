@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.3.1-beta",
+      "latestVersion": "1.4.0-beta",
       "versions": [
+        {
+          "version": "1.4.0-beta",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.4.0-beta/plugin-seer-v1.4.0-beta.tar.gz",
+          "checksum": "sha256:68575c844b944103f602b1a8f57755ba074023f7d62b47dbeb7471841229e76d",
+          "changelog": "Anime detection & Sonarr overrides, admin navItem for configure button, worker retry logic improvements",
+          "releaseDate": "2026-03-08"
+        },
         {
           "version": "1.3.1-beta",
           "minTentacleVersion": "1.1.0",
