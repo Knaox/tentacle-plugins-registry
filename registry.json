@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.4.0-beta",
+      "latestVersion": "1.4.1-beta",
       "versions": [
+        {
+          "version": "1.4.1-beta",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.4.1-beta/plugin-seer-v1.4.1-beta.tar.gz",
+          "checksum": "sha256:91a644befa3434da4a80a829292ddce4d1cb7ae0e4c73682a655ae79c5d1f7b9",
+          "changelog": "Fix search broken by URLSearchParams encoding spaces as '+' instead of '%20', remove language query param from search (was filtering by original language)",
+          "releaseDate": "2026-03-09"
+        },
         {
           "version": "1.4.0-beta",
           "minTentacleVersion": "1.1.0",
