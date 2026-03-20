@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.4.1-beta",
+      "latestVersion": "1.5.0-beta",
       "versions": [
+        {
+          "version": "1.5.0-beta",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.5.0-beta/plugin-seer-v1.5.0-beta.tar.gz",
+          "checksum": "sha256:78a29a5cf3f87cba6530c03b8e9ed93a2466abd4a743d78ad6065204732435d6",
+          "changelog": "Onglet Anime, sélection de saisons, file d'attente Sonarr/Radarr avec retry, navigation directe vers médias disponibles, badges temps réel, auto-retry des échecs, correction statuts Jellyseerr (status 4), suppression complète Sonarr/Radarr",
+          "releaseDate": "2026-03-20"
+        },
         {
           "version": "1.4.1-beta",
           "minTentacleVersion": "1.1.0",
