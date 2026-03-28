@@ -18,7 +18,7 @@
           "minTentacleVersion": "1.1.0",
           "maxTentacleVersion": null,
           "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.6.0-beta/plugin-seer-v1.6.0-beta.tar.gz",
-          "checksum": "sha256:6d970784f8d741a35b82139a614a1990e3a022476e1de7a664293bb68fdedf02",
+          "checksum": "sha256:b1d3eabfacf9b9068c65f085a10b4787de4e501cebe62f77ac3dc880764115c6",
           "changelog": "État suppression visuel, profils qualité personnalisés (admin + user), bulk actions (supprimer/redemander), ajout saisons verrouillées, forcer suppression, fusion saisons, retry sans suppression Sonarr/Radarr, fragmentation modules",
           "releaseDate": "2026-03-28"
         },
