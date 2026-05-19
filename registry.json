@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.6.0-beta",
+      "latestVersion": "1.7.0",
       "versions": [
+        {
+          "version": "1.7.0",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.7.0/plugin-seer-v1.7.0.tar.gz",
+          "checksum": "sha256:6f2b340d3f0fca8b6cac47ee0154c638119c9bbca328aca26a779b12a4a30c09",
+          "changelog": "Demandes Jellyseerr au nom de l'utilisateur Jellyfin (auto-import si absent), page admin Utilisateurs (blocage, quota quotidien, types autorisés films/séries/animés), Jellyseerr source de vérité sur /requests (avec mapping fidèle partially_available), action 'Marquer comme...' (available/partial/unknown), stats intégrées sur /requests, page /stats supprimée, options 'supprimer le contenu' et 'forcer re-téléchargement' décochées par défaut, erreurs i18n traduites, refactor design : tokens CSS Tentacle (var(--brand)) — le plugin suit automatiquement le thème du host, boutons primaires Netflix-style (bg-white + halo brand).",
+          "releaseDate": "2026-05-19"
+        },
         {
           "version": "1.6.0-beta",
           "minTentacleVersion": "1.1.0",
@@ -104,8 +113,19 @@
           "releaseDate": "2026-03-01"
         }
       ],
-      "tags": ["media", "requests", "seerr", "overseerr", "sonarr", "radarr"],
-      "platforms": ["web", "desktop", "mobile"],
+      "tags": [
+        "media",
+        "requests",
+        "seerr",
+        "overseerr",
+        "sonarr",
+        "radarr"
+      ],
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
       "category": "media-management"
     }
   ]
