@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.8.1",
+      "latestVersion": "1.8.2",
       "versions": [
+        {
+          "version": "1.8.2",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.8.2/plugin-seer-v1.8.2.tar.gz",
+          "checksum": "sha256:5c560da49a9a3dad4ab3125bff6fdd6650cb1fdf078afb9a30185d6d0a2d3278",
+          "changelog": "Invalide les jellyseerr_user_id cachés qui pointent vers un user Jellyseerr supprimé. Sync utilisateurs : l'affichage 'Lié à Jellyseerr #X' devient 'Non lié' quand le user a été supprimé. Sync demandes locales : un user dont le placeholder a été supprimé voit un nouveau placeholder recréé avec le bon username + ses demandes recréées dans Jellyseerr.",
+          "releaseDate": "2026-05-19"
+        },
         {
           "version": "1.8.1",
           "minTentacleVersion": "1.1.0",
