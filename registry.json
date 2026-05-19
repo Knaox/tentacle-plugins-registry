@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.8.0",
+      "latestVersion": "1.8.1",
       "versions": [
+        {
+          "version": "1.8.1",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.8.1/plugin-seer-v1.8.1.tar.gz",
+          "checksum": "sha256:e7478caf1bc4196d4ac33e8cd2d0e48b5aca9bdbe2431a357b1d866b1bdec92a",
+          "changelog": "Sync utilisateurs retire les users absents de Jellyfin ET Jellyseerr (et sans demande locale). Sync demandes locales : placeholder créé avec le vrai username Jellyfin (depuis seer_requests) au lieu d'un UUID. Sync demandes locales : si la demande Jellyseerr a été supprimée (404), elle est recréée à partir des infos locales avec le bon userId.",
+          "releaseDate": "2026-05-19"
+        },
         {
           "version": "1.8.0",
           "minTentacleVersion": "1.1.0",
