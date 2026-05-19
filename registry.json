@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.7.0",
+      "latestVersion": "1.8.0",
       "versions": [
+        {
+          "version": "1.8.0",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.8.0/plugin-seer-v1.8.0.tar.gz",
+          "checksum": "sha256:e3affdf89cce25cde41bb22d703750d911bd40d1ef1ddafe115109e70b312481",
+          "changelog": "Bouton admin 'Synchroniser les demandes locales' (réassigne le propriétaire Jellyseerr de chaque demande, crée un user placeholder si le compte Jellyfin a été supprimé). Réconciliation auto par username quand l'utilisateur recrée son compte Jellyfin. Cache mémoire backend 60s sur /requests et /requests/stats (les changements de filtre n'entraînent plus de hit Jellyseerr). React Query : staleTime 60s + gcTime 30min + placeholderData partout pour des transitions instantanées.",
+          "releaseDate": "2026-05-19"
+        },
         {
           "version": "1.7.0",
           "minTentacleVersion": "1.1.0",
