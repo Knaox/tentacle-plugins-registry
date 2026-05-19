@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.8.2",
+      "latestVersion": "1.8.3",
       "versions": [
+        {
+          "version": "1.8.3",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.8.3/plugin-seer-v1.8.3.tar.gz",
+          "checksum": "sha256:e7472ce6ef2347e712afbe1ee24ef3168c573f86dd37abed5b9ebf21521d239b",
+          "changelog": "La liste Permissions des utilisateurs affiche strictement les utilisateurs Jellyfin (source autoritative : Jellyfin API admin + fallback Jellyseerr users avec jellyfinUserId). Plus jamais d'inclusion des rows locales orphelines (seer_user_settings/seer_requests sans correspondant Jellyfin ou Jellyseerr).",
+          "releaseDate": "2026-05-19"
+        },
         {
           "version": "1.8.2",
           "minTentacleVersion": "1.1.0",
