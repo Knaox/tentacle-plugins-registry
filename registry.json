@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.8.3",
+      "latestVersion": "1.9.2",
       "versions": [
+        {
+          "version": "1.9.2",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.9.2/plugin-seer-v1.9.2.tar.gz",
+          "checksum": "sha256:c9228ba44fe0811839eae0e97fa4e23179d0f816029e13cfab5da7bbdd3c851a",
+          "changelog": "Bandes-annonces + extras alignés sur le core (fusion Jellyfin + TMDB, tri par langue du profil, ouverture navigateur système sur macOS DMG), fiche détail enrichie (saisons/épisodes avec dates de diffusion, bannière prochain épisode, profils de demande), fix titre masqué par le dégradé, modal élargi",
+          "releaseDate": "2026-06-11"
+        },
         {
           "version": "1.8.3",
           "minTentacleVersion": "1.1.0",
