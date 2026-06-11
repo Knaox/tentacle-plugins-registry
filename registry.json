@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.9.2",
+      "latestVersion": "1.9.3",
       "versions": [
+        {
+          "version": "1.9.3",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.9.3/plugin-seer-v1.9.3.tar.gz",
+          "checksum": "sha256:125bd11289d1ca46c75d2de6409057b207598045a4c066f07069d0a846ba1799",
+          "changelog": "Fix lecture des bandes-annonces : délégation à la modale du host (l'embed YouTube ne fonctionne pas dans l'iframe sandboxée du plugin). Lecture host avec Tentacle >= 1.9.4, repli local sinon.",
+          "releaseDate": "2026-06-11"
+        },
         {
           "version": "1.9.2",
           "minTentacleVersion": "1.1.0",
