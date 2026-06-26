@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.10.1",
+      "latestVersion": "1.10.2",
       "versions": [
+        {
+          "version": "1.10.2",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.10.2/plugin-seer-v1.10.2.tar.gz",
+          "checksum": "sha256:76eb6d94e0526ce67a2ee9a9233ba38940aa143dd7632ee16f26d9c202eb2f4e",
+          "changelog": "Correctif : ajouter une saison à une série/animé partiellement disponible ne supprime plus les demandes Jellyseerr et ne re-demande plus les saisons précédentes. Le worker ne supprime plus le média Jellyseerr avant chaque envoi (cassait la déduplication native des saisons) ; seule la nouvelle saison est demandée et la disponibilité existante est préservée. Réponse « No seasons available » traitée comme satisfaite. L'UI n'envoie plus les saisons déjà demandées.",
+          "releaseDate": "2026-06-26"
+        },
         {
           "version": "1.10.1",
           "minTentacleVersion": "1.1.0",
