@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.10.3",
+      "latestVersion": "1.10.4",
       "versions": [
+        {
+          "version": "1.10.4",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.10.4/plugin-seer-v1.10.4.tar.gz",
+          "checksum": "sha256:3dfd2d7aa324201abdfc17771d4ad3d92aa66ef66681d60886c17025e44020ce",
+          "changelog": "Correctif suppression : supprimer une saison ne supprime plus toute la série (la sélection est désormais toujours scopée aux saisons de la demande — UI, backend et suppression groupée, qui n'efface plus les fichiers par défaut). Après suppression des fichiers, le plugin relance le job Jellyseerr « Media Availability Sync » pour réconcilier la disponibilité par saison (nécessite que Jellyfin ne voie plus les épisodes : Sonarr/Radarr → Connect, ou scan planifié).",
+          "releaseDate": "2026-06-26"
+        },
         {
           "version": "1.10.3",
           "minTentacleVersion": "1.1.0",
