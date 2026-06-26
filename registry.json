@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.10.0",
+      "latestVersion": "1.10.1",
       "versions": [
+        {
+          "version": "1.10.1",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.10.1/plugin-seer-v1.10.1.tar.gz",
+          "checksum": "sha256:7f0be03587c7a9f2ebccfcf859176fb92839b294a30f75a7ebafa135438e20f5",
+          "changelog": "Filtrage par tags désormais appliqué à la recherche et au trending (lecture des keywords TMDB de chaque résultat, cache 7 j ; TMDB multi-search n'accepte pas without_keywords). Discover (films/séries/animés) inchangé (excludeKeywords natif). Nouveau bandeau « N résultats masqués · Afficher quand même » : révèle/re-masque le contenu filtré, responsive (mobile + desktop), accessible (aria-live, cible tactile >=44px), glassmorphism, état mémorisé.",
+          "releaseDate": "2026-06-26"
+        },
         {
           "version": "1.10.0",
           "minTentacleVersion": "1.1.0",
