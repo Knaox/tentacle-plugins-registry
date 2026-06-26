@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.10.5",
+      "latestVersion": "1.10.6",
       "versions": [
+        {
+          "version": "1.10.6",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.10.6/plugin-seer-v1.10.6.tar.gz",
+          "checksum": "sha256:1894bdfa6aed9f0ad1b1f20793482e72766f8d928451a33d3b80445dbfdda75f",
+          "changelog": "Barre de recherche sur la page Demandes : recherche par titre côté serveur sur l'ensemble des demandes (avant pagination), combinable avec les filtres statut/type. Champ glassmorphism avec anti-rebond et bouton effacer.",
+          "releaseDate": "2026-06-26"
+        },
         {
           "version": "1.10.5",
           "minTentacleVersion": "1.1.0",
