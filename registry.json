@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.10.4",
+      "latestVersion": "1.10.5",
       "versions": [
+        {
+          "version": "1.10.5",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.10.5/plugin-seer-v1.10.5.tar.gz",
+          "checksum": "sha256:44cffff5dc3d6b07870e35d07c621fcf51e6c7aa4578e30eafa6e9b4824cfc37",
+          "changelog": "Une saison seulement demandée (en attente/traitement, pas encore disponible) restait sélectionnable et re-demandable dans la fiche. La fiche prend désormais en compte les demandes actives (mediaInfo.requests) en plus des statuts de disponibilité (mediaInfo.seasons) : les saisons en cours de traitement sont verrouillées.",
+          "releaseDate": "2026-06-26"
+        },
         {
           "version": "1.10.4",
           "minTentacleVersion": "1.1.0",
