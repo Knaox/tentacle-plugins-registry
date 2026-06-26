@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.9.3",
+      "latestVersion": "1.10.0",
       "versions": [
+        {
+          "version": "1.10.0",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.10.0/plugin-seer-v1.10.0.tar.gz",
+          "checksum": "sha256:fd2e10d79ddd96b50b897d41e8dac04350311f9361a5ca323f7a7d9a7bc8df9b",
+          "changelog": "Respect de l'option Jellyseerr « Bloquer le contenu avec des tags » (blocklistedTags) dans le discover et la recherche. Discover (films/séries/animés) : exclusion native côté TMDB via excludeKeywords (without_keywords). Recherche/trending/discover : retrait des résultats au statut BLOCKLISTED. Lecture des tags via la clé admin, cache 5 min ; filtrage actif uniquement si des tags sont configurés.",
+          "releaseDate": "2026-06-26"
+        },
         {
           "version": "1.9.3",
           "minTentacleVersion": "1.1.0",
