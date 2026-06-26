@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.10.6",
+      "latestVersion": "1.10.7",
       "versions": [
+        {
+          "version": "1.10.7",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.10.7/plugin-seer-v1.10.7.tar.gz",
+          "checksum": "sha256:67529782ac4dac961a9b926449138ccdca9a0b85ad567e376b252f9c24ff5166",
+          "changelog": "L'option « Supprimer aussi le contenu (Sonarr/Radarr) » est cochée par défaut : une suppression efface aussi les fichiers (films + saisons), série/film conservés dans Sonarr/Radarr (non surveillé). Suppression de la demande Jellyseerr fiabilisée (retry au lieu d'être ignorée ; 404 = OK) pour ne jamais laisser de demande orpheline.",
+          "releaseDate": "2026-06-26"
+        },
         {
           "version": "1.10.6",
           "minTentacleVersion": "1.1.0",
