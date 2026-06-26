@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.10.2",
+      "latestVersion": "1.10.3",
       "versions": [
+        {
+          "version": "1.10.3",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.10.3/plugin-seer-v1.10.3.tar.gz",
+          "checksum": "sha256:186f74b32db2ed63b89b407171dc0deac2f98f75c4acde34683282e669e66694",
+          "changelog": "Suppression « douce » : on ne retire plus jamais la série/le film de Sonarr/Radarr. Décoché = désactive la surveillance des saisons/film sélectionnés (+ annule la file) → plus de re-téléchargement, contenu conservé. Coché = supprime aussi les fichiers. Pilotage direct Sonarr/Radarr (API v3 via réglages Jellyseerr), granularité par saison, suppression partielle préservant les saisons conservées.",
+          "releaseDate": "2026-06-26"
+        },
         {
           "version": "1.10.2",
           "minTentacleVersion": "1.1.0",
