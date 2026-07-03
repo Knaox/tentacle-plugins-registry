@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.11.2",
+      "latestVersion": "1.11.3",
       "versions": [
+        {
+          "version": "1.11.3",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.11.3/plugin-seer-v1.11.3.tar.gz",
+          "checksum": "sha256:2feb11d24b7b86a856eeb7ac6610d22da8542815610331833639ef5b9e72582f",
+          "changelog": "Les demandes « Demandée » rejoignent le filtre « En attente » (liste + stats) ; badges Découvrir fidèles à Jellyseerr : « Demandé » pour un média en acquisition (cartes et saisons), « Téléchargement » réservé aux téléchargements réellement actifs ; badge « Demandé » enfin lisible (fond violet).",
+          "releaseDate": "2026-07-03"
+        },
         {
           "version": "1.11.2",
           "minTentacleVersion": "1.1.0",
