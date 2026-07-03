@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.11.0",
+      "latestVersion": "1.11.1",
       "versions": [
+        {
+          "version": "1.11.1",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.11.1/plugin-seer-v1.11.1.tar.gz",
+          "checksum": "sha256:f14d6add7d6942947048d2768437d220931e865bc64dfdf67c81856123504365",
+          "changelog": "Suppression partielle corrigée : retirer une saison d'une demande Jellyseerr édite la demande (saisons restantes) au lieu de la supprimer entièrement. Bascule de dispo fiabilisée : availability-sync re-déclenchée à +2/+10 min après suppression du contenu (le temps que Jellyfin rescanne). Changements d'état instantanés (MAJ optimiste + suppression affichée immédiatement). Libellés « En téléchargement » et « Demandée » alignés sur l'effet réel Jellyseerr, jamais ré-écrasés par le plugin.",
+          "releaseDate": "2026-07-03"
+        },
         {
           "version": "1.11.0",
           "minTentacleVersion": "1.1.0",
