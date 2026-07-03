@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.10.7",
+      "latestVersion": "1.11.0",
       "versions": [
+        {
+          "version": "1.11.0",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.11.0/plugin-seer-v1.11.0.tar.gz",
+          "checksum": "sha256:0fee38c82edfbdc37238ddf085f940c60ede9a4b593a530660b347ceb13f2c83",
+          "changelog": "Suppression de saison enfin répercutée sur Jellyseerr (demandes éditées/supprimées — plus de saison fantôme). Suppressions groupées quasi instantanées (lots + réveil immédiat du worker). « Marquer comme » refait : bottom sheet opaque et cliquable, 4 vrais états Jellyseerr (disponible, partiel, en traitement, non disponible) en écriture one-shot — un changement d'état ultérieur par Jellyseerr n'est pas ré-écrasé ; « Redemander » ne disparaît plus. Mobile : modals opaques (fallback des tokens de thème) et boutons des cartes sans débordement.",
+          "releaseDate": "2026-07-03"
+        },
         {
           "version": "1.10.7",
           "minTentacleVersion": "1.1.0",
