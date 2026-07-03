@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.11.1",
+      "latestVersion": "1.11.2",
       "versions": [
+        {
+          "version": "1.11.2",
+          "minTentacleVersion": "1.1.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.11.2/plugin-seer-v1.11.2.tar.gz",
+          "checksum": "sha256:919f76411f0f370cd1a728cf970fb7f749a02e536822ae2cfc58544ff39c02a9",
+          "changelog": "Statuts alignés sur Jellyseerr : « Téléchargement » seulement si un téléchargement est réellement actif (sinon « Demandée ») ; « Marquer comme Demandée » ne supprime plus la demande Jellyseerr (auto-retry destructif corrigé) ; état « Supprimée » géré et re-marquable ; marquage « Disponible » épinglé côté Seer.",
+          "releaseDate": "2026-07-03"
+        },
         {
           "version": "1.11.1",
           "minTentacleVersion": "1.1.0",
