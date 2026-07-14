@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.11.3",
+      "latestVersion": "1.12.0",
       "versions": [
+        {
+          "version": "1.12.0",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.12.0/plugin-seer-v1.12.0.tar.gz",
+          "checksum": "sha256:870cfd5dcbe6275598f07af6d1f92394f9edbdcda78661b01a8f4bff55065c06",
+          "changelog": "### FR\n- Support complet du thème CLAIR : surfaces, textes, boutons et modales suivent désormais le thème de l'application (fini le texte blanc sur fond blanc).\n- Boutons et champs branchés sur les tokens sémantiques de l'hôte (cohérence clair/sombre garantie).\n\n### EN\n- Full LIGHT theme support: surfaces, text, buttons and modals now follow the host app theme (no more white-on-white text).\n- Buttons and inputs wired to the host semantic tokens (guaranteed light/dark consistency).",
+          "releaseDate": "2026-07-14"
+        },
         {
           "version": "1.11.3",
           "minTentacleVersion": "1.1.0",
