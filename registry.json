@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.12.0",
+      "latestVersion": "1.13.0",
       "versions": [
+        {
+          "version": "1.13.0",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.13.0/plugin-seer-v1.13.0.tar.gz",
+          "checksum": "sha256:86bad9977de56fb8e888b9c2640ec981ee0c12b41f4b79bea0a761ded09694cc",
+          "changelog": "### FR\n- Disponibilité par-saison : une demande de saison(s) est désormais considérée disponible dès que les saisons DEMANDÉES sont présentes, même si le reste de la série manque — fini les demandes bloquées en « partiellement disponible » sans notification.\n- Notifications enrichies : « Saison N est sortie sur Tentacle TV » (accord grammatical film/série/saison), avec une notification dès qu'une partie des saisons demandées arrive (ex. 2/3 saisons) puis pour les suivantes.\n- Réconciliation de disponibilité accélérée côté Jellyseerr (rafraîchissement de l'état par saison).\n- Notifications épurées : Seer ne notifie plus qu'aux étapes utiles — en cours de téléchargement, sortie, et échec définitif. Fini les notifications « demande envoyée », « approuvée » et les tentatives automatiques (anti-spam).\n- Anti-doublon : quand une demande devient disponible, une seule notification part (celle de Seer) — plus de doublon avec la notification « ajout bibliothèque » (nécessite le serveur ≥ 1.5.5).\n- Notification même si déjà présent : demander un contenu déjà dans la bibliothèque envoie quand même la notification « disponible » (avant : silence).\n\n### EN\n- Per-season availability: a season request is now considered available as soon as the REQUESTED seasons are present, even if the rest of the series is missing — no more requests stuck as \"partially available\" with no notification.\n- Richer notifications: \"Season N is now on Tentacle TV\", with a notification as soon as some of the requested seasons arrive (e.g. 2 of 3) and again for the following ones.\n- Faster availability reconciliation on the Jellyseerr side (per-season status refresh).\n- Streamlined notifications: Seer now only notifies at useful stages — downloading, released, and permanent failure. No more \"request sent\", \"approved\" or auto-retry notifications (anti-spam).\n- Deduplication: when a request becomes available, only one notification is sent (Seer's) — no more duplicate with the \"library added\" notification (requires server ≥ 1.5.5).\n- Notify even if already present: requesting content already in the library still sends the \"available\" notification (previously: silent).",
+          "releaseDate": "2026-07-15"
+        },
         {
           "version": "1.12.0",
           "minTentacleVersion": "0.9.0",
