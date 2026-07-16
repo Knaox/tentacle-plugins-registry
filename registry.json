@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
-      "latestVersion": "1.13.0",
+      "latestVersion": "1.13.1",
       "versions": [
+        {
+          "version": "1.13.1",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Seer/releases/download/v1.13.1/plugin-seer-v1.13.1.tar.gz",
+          "checksum": "sha256:4fde58e4bfa3773925d0b8bb7e83295d0e7183f83758b08b294613cf9267bd4a",
+          "changelog": "### FR\n- Demande de saison : une saison demandée apparaît **immédiatement** comme « Demandé » et ne peut plus être redemandée par erreur. Le verrou s'appuie désormais sur la file locale du plugin (et non sur Jellyseerr, qui accusait un décalage) : il tient dès le clic et survit au rafraîchissement de la page.\n### EN\n- Season request: a requested season now shows as “Requested” **immediately** and can no longer be re-requested by mistake. The lock now relies on the plugin's local queue (instead of Jellyseerr, which lagged behind): it holds from the moment you click and survives a page refresh.",
+          "releaseDate": "2026-07-16"
+        },
         {
           "version": "1.13.0",
           "minTentacleVersion": "0.9.0",
