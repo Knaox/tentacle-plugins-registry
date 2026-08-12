@@ -6,8 +6,8 @@
   "plugins": [
     {
       "id": "seer",
-      "name": "Seer - Media Requests",
-      "description": "Request movies and TV series via Seerr / Overseerr. Discover content, request in 1 click, track your requests.",
+      "name": "Vigie",
+      "description": "Demandez films et séries, suivez leur arrivée et voyez les prochaines sorties. Se connecte à votre instance Jellyseerr / Overseerr — projet indépendant, sans affiliation avec Jellyseerr ni Overseerr.",
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Seer",
       "icon": "",
