@@ -9,7 +9,7 @@
       "name": "Vigie — Jellyseerr (unofficial)",
       "description": "Demandez films et séries, suivez leur arrivée et voyez les prochaines sorties. Se connecte à votre instance Jellyseerr / Overseerr — projet indépendant, sans affiliation avec Jellyseerr ni Overseerr.",
       "author": "Knaox",
-      "repo": "Knaox/Tentacle-Plugin-Seer",
+      "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
       "latestVersion": "1.14.0",
       "versions": [
