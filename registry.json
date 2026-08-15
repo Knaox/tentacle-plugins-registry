@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
-      "latestVersion": "1.14.1",
+      "latestVersion": "1.14.2",
       "versions": [
+        {
+          "version": "1.14.2",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.14.2/plugin-vigie-v1.14.2.tar.gz",
+          "checksum": "sha256:3865a70cde6920f9e2469f09b2c2497ac9be0aa1ac8c3014a6a1ff909347bbf7",
+          "changelog": "### FR\n- **Une panne n'est plus jamais confondue avec « rien à signaler ».** Quand une des sources du calendrier (Jellyseerr/TMDB, Sonarr) ne répondait pas — réseau pas encore prêt juste après un redémarrage, service momentanément indisponible — le plugin pouvait retenir un calendrier maigre comme s'il était complet, pendant six heures, sans bandeau ni nouvelle tentative\n- Désormais : un échec n'est **jamais mis en cache comme un succès**, la dernière bonne réponse connue continue d'être servie, le calendrier se déclare **incomplet** (bandeau « Construction du calendrier en cours… ») et la reconstruction se relance chaque minute jusqu'à ce que tout réponde\n- Une instance **sans Sonarr** reste parfaitement normale : « pas de Sonarr configuré » est un vrai « rien à signaler » — seul « Sonarr configuré mais muet » compte comme une panne (et n'est plus masqué dix minutes par le cache de configuration)\n- Le sélecteur de plateformes et les heures de diffusion ne peuvent plus retenir un résultat vide pendant des heures après une panne passagère\n### EN\n- **An outage can no longer be mistaken for \"nothing to report\".** When one of the calendar's sources (Jellyseerr/TMDB, Sonarr) failed to answer — network not ready right after a restart, service briefly down — the plugin could cache a thin calendar as if it were complete, for six hours, with no banner and no retry\n- Now: a failure is **never cached as a success**, the last known good answer keeps being served, the calendar declares itself **incomplete** (the \"Building the calendar…\" banner shows) and rebuilds every minute until everything answers\n- Instances **without Sonarr** stay perfectly normal: \"no Sonarr configured\" is a genuine \"nothing to report\" — only \"configured but silent\" counts as an outage (and is no longer hidden for ten minutes by the settings cache)\n- The platform picker and episode air times can no longer hold an empty result for hours after a transient failure",
+          "releaseDate": "2026-08-15"
+        },
         {
           "version": "1.14.1",
           "minTentacleVersion": "0.9.0",
