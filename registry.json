@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
-      "latestVersion": "1.14.2",
+      "latestVersion": "1.14.3",
       "versions": [
+        {
+          "version": "1.14.3",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.14.3/plugin-vigie-v1.14.3.tar.gz",
+          "checksum": "sha256:8591461a029b207a99ef520d3dfc3b1e26aec710cf37727fc407e9224474e0e6",
+          "changelog": "feat(discover) : deep-link ?media=movie:123 — la fiche s'ouvre à l'arrivée",
+          "releaseDate": "2026-09-01"
+        },
         {
           "version": "1.14.2",
           "minTentacleVersion": "0.9.0",
