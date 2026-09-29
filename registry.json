@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
-      "latestVersion": "1.19.0",
+      "latestVersion": "1.19.1",
       "versions": [
+        {
+          "version": "1.19.1",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.19.1/plugin-vigie-v1.19.1.tar.gz",
+          "checksum": "sha256:57afb1eb7c857b69b1ef2de434df8700c051820f7ee786b7b99c940df570dd32",
+          "changelog": "### FR\n- **Vigie parle de nouveau à Jellyfin 12** : depuis la mise à jour de Jellyfin, la page d'administration affichait « Jellyfin injoignable … a répondu 401 », la synchro des comptes ne voyait plus Jellyfin, et les affiches perdaient en silence « dans la bibliothèque », « vu », « Ma liste » et le favori\n- **Sécurité** : le relais vers Jellyseerr ne laisse plus passer que la lecture du catalogue. Tout compte connecté pouvait jusqu'ici atteindre des réglages et des actions réservés à l'administration, clés d'API comprises. Mettez à jour sans attendre\n- **Prêt pour Jellyseerr / Seerr 3.5** : retirer une partie des saisons d'une série n'échoue plus en boucle, et la réattribution des demandes ne risque plus d'en perdre une\n- **« Disponible sur » s'affiche enfin** sur la fiche d'un titre, avec les plateformes de votre pays\n- **Le tri par titre des séries et des animés trie vraiment** : il restait dans l'ordre de popularité\n- **En anglais, le calendrier et ses plateformes ne sont plus vides** : la langue « en » partait comme un pays\n- Une demande dont toutes les saisons étaient déjà demandées ne reste plus « envoyée » pour toujours\n### EN\n- **Vigie talks to Jellyfin 12 again**: since the Jellyfin update, the admin page showed \"Jellyfin unreachable … answered 401\", account sync no longer saw Jellyfin, and posters silently lost \"in library\", \"watched\", \"My list\" and favorite\n- **Security**: the Jellyseerr relay now only lets catalogue reads through. Until now any signed-in account could reach settings and actions reserved to administrators, API keys included. Update right away\n- **Ready for Jellyseerr / Seerr 3.5**: removing some seasons of a series no longer fails in a loop, and reassigning requests can no longer lose one\n- **\"Available on\" finally shows** on a title page, with your country's platforms\n- **Sorting series and anime by title really sorts**: it stayed in popularity order\n- **In English, the calendar and its platforms are no longer empty**: the \"en\" language was sent as a country\n- A request whose seasons were all already requested no longer stays \"sent\" forever",
+          "releaseDate": "2026-09-29"
+        },
         {
           "version": "1.19.0",
           "minTentacleVersion": "0.9.0",
