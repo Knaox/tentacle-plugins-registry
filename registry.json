@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
-      "latestVersion": "1.19.1",
+      "latestVersion": "1.20.0",
       "versions": [
+        {
+          "version": "1.20.0",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.20.0/plugin-vigie-v1.20.0.tar.gz",
+          "checksum": "sha256:ad8eecad70df0a1f52bb0f3cc499ae244d71e712736aecbbba289f5f9361f083",
+          "changelog": "### FR\n- **Sur iPhone et iPad, Vigie défile enfin comme le reste de l'application** : la page s'arrêtait presque net au lâcher du doigt — un même geste y parcourait cinq fois moins de chemin qu'ailleurs. Elle garde désormais l'élan et le rebond natifs, dans toutes ses vues, recherche et catalogue compris\n- **« Voir la série » et « Regarder le film » mènent sans attendre à la bibliothèque, sur Android comme sur iOS** : la fiche s'ouvre sur l'élément Jellyfin que Jellyseerr connaît déjà. Quand le titre reste introuvable, un message le dit au lieu d'un bouton qui ne fait rien\n- **Les épisodes spéciaux se demandent** quand Jellyseerr l'autorise (Paramètres › Général) : « Épisodes spéciaux » apparaît après les saisons, dans la fiche comme dans la demande rapide\n- **Nouvelle option : autoriser la demande de contenu masqué** (réglages de Vigie, section Demandes). Allumée, un titre que Jellyseerr masque (liste de blocage, mots-clés bloqués) se demande comme un autre : Vigie le retire de la liste de blocage juste avant d'envoyer la demande. Éteinte, la demande n'est pas proposée et la fiche le dit\n- Les rangées d'affiches restent fluides pendant qu'on les fait glisser\n- Un titre masqué ou supprimé n'affiche plus « Regarder »\n### EN\n- **On iPhone and iPad, Vigie finally scrolls like the rest of the app**: the page stopped almost dead when the finger lifted — the same gesture travelled five times less than elsewhere. It now keeps the native momentum and bounce, in every view, search and catalogue included\n- **\"Go to series\" and \"Watch movie\" lead straight to the library, on Android as on iOS**: the page opens on the Jellyfin item Jellyseerr already knows. When the title can't be found, a message says so instead of a button that does nothing\n- **Special episodes can be requested** when Jellyseerr allows it (Settings › General): \"Specials\" shows up after the seasons, on the title page and in the quick request\n- **New option: allow requesting hidden content** (Vigie settings, Requests section). On, a title Jellyseerr hides (blocklist, blocked keywords) is requested like any other: Vigie removes it from the blocklist right before sending the request. Off, the request isn't offered and the title page says so\n- Poster rows stay smooth while you swipe them\n- A hidden or deleted title no longer shows \"Watch\"",
+          "releaseDate": "2026-09-30"
+        },
         {
           "version": "1.19.1",
           "minTentacleVersion": "0.9.0",
