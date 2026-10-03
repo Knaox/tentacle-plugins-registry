@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
-      "latestVersion": "1.22.0",
+      "latestVersion": "1.23.0",
       "versions": [
+        {
+          "version": "1.23.0",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.23.0/plugin-vigie-v1.23.0.tar.gz",
+          "checksum": "sha256:1f853479881cb9ec97e5d18aa0b2c9ef68aa9f5e0e52cf439a6be0e036d66749",
+          "changelog": "### FR\n- **Les boutons principaux des vitrines aux couleurs de Tentacle** : « Regarder » et « Demander » prennent le dégradé violet → rose, comme les bannières de l'application, avec un texte qui reste lisible\n### EN\n- **Showcase main buttons in Tentacle colors**: \"Watch\" and \"Request\" take the purple → pink gradient, like the app's banners, with text that stays readable",
+          "releaseDate": "2026-10-03"
+        },
         {
           "version": "1.22.0",
           "minTentacleVersion": "0.9.0",
