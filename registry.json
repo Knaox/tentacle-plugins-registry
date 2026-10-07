@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
-      "latestVersion": "1.24.0",
+      "latestVersion": "1.24.1",
       "versions": [
+        {
+          "version": "1.24.1",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.24.1/plugin-vigie-v1.24.1.tar.gz",
+          "checksum": "sha256:c6d2fcd2aea97516fb4f0cb429b62bb9dc3be88657c203dd5b738e95ee73244d",
+          "changelog": "chore(licence) : Vigie passe en AGPL-3.0-or-later, comme Tentacle TV",
+          "releaseDate": "2026-10-07"
+        },
         {
           "version": "1.24.0",
           "minTentacleVersion": "0.9.0",
