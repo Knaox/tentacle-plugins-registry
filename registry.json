@@ -11,8 +11,17 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
-      "latestVersion": "1.24.1",
+      "latestVersion": "1.24.2",
       "versions": [
+        {
+          "version": "1.24.2",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.24.2/plugin-vigie-v1.24.2.tar.gz",
+          "checksum": "sha256:a07a488a6e168fd0f305261e6a00502fec464655e8f6849639ff7291db50f951",
+          "changelog": "### FR\n- **Vos demandes ne peuvent plus disparaître au démarrage** : une base de données momentanément occupée ou lente ne provoque plus la suppression de la liste des demandes ; un souci se signale dans le journal du serveur, sans rien effacer\n- **Les listes de demandes paginées ne répètent ni ne sautent plus une demande**, et les classements des statistiques restent stables d'un affichage à l'autre\n### EN\n- **Your requests can no longer vanish at startup**: a briefly busy or slow database no longer wipes the request list; a problem is reported in the server log, with nothing erased\n- **Paginated request lists no longer repeat or skip a request**, and statistics rankings stay stable from one view to the next",
+          "releaseDate": "2026-10-08"
+        },
         {
           "version": "1.24.1",
           "minTentacleVersion": "0.9.0",
