@@ -23,6 +23,15 @@
           "releaseDate": "2026-10-08"
         },
         {
+          "version": "1.25.1",
+          "minTentacleVersion": "1.25.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.25.1/plugin-vigie-v1.25.1.tar.gz",
+          "checksum": "sha256:2ed820200084f07fc26c98dcb5d8dd597becd8af79b1cda3e302ece07cc6c990",
+          "changelog": "### FR\n- **Un titre supprimé de Jellyfin n'est plus « Disponible »** : Vigie le voit dès que Jellyfin l'a perdu, sans attendre la synchronisation de Jellyseerr, et le dit « Demandé » tant que sa demande existe — partout : recherche, cartes de Tentacle, catalogue, fiche, Mes demandes\n- **Une demande supprimée dans Jellyseerr disparaît de Vigie en quelques secondes**, et le titre se redemande aussitôt, y compris depuis la barre de recherche de Tentacle\n- **Redemander un titre ou une saison supprimés fonctionne du premier coup** : plus de « déjà demandé » ni de « disponible » à tort\n- **Nouvelle option — « Supprimer la demande avec le titre »** (désactivée par défaut) : quand un titre est supprimé de Jellyfin, sa demande disparaît aussi de Vigie et de Jellyseerr, et Sonarr ou Radarr cessent de le surveiller. Une vague de suppressions d'un coup (disque débranché) n'emporte rien\n- Le hub se met à jour tout seul quand un titre ou une demande change, sans recharger la page\n### EN\n- **A title deleted from Jellyfin is no longer \"Available\"**: Vigie sees it as soon as Jellyfin loses it, without waiting for Jellyseerr's sync, and shows it \"Requested\" while its request exists — everywhere: search, Tentacle cards, catalog, details, My requests\n- **A request deleted in Jellyseerr leaves Vigie within seconds**, and the title can be requested again right away, including from Tentacle's search bar\n- **Requesting a deleted title or season again works the first time**: no more wrong \"already requested\" or \"available\"\n- **New option — \"Delete the request with the title\"** (off by default): when a title is deleted from Jellyfin, its request also leaves Vigie and Jellyseerr, and Sonarr or Radarr stop monitoring it. A sudden wave of deletions (unplugged disk) removes nothing\n- The hub updates on its own when a title or a request changes, no reload needed",
+          "releaseDate": "2026-10-09"
+        },
+        {
           "version": "1.25.0",
           "minTentacleVersion": "1.25.0",
           "maxTentacleVersion": null,
