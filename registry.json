@@ -23,6 +23,15 @@
           "releaseDate": "2026-10-10"
         },
         {
+          "version": "1.25.5",
+          "minTentacleVersion": "1.25.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.25.5/plugin-vigie-v1.25.5.tar.gz",
+          "checksum": "sha256:9f2dc508a23e21ef9460733a1805575c1e387a541c9c6b1cba70a0f6191d4c9e",
+          "changelog": "### FR\n- **Une panne n'est pas une suppression** : avant de retirer la demande d'un titre parti, Vigie demande à Jellyfin si les dossiers de ses bibliothèques répondent. Un NAS débranché, un partage perdu, un disque en panne : rien n'est retiré, et les titres restent « Demandé »\n- **Ce qui est parti pendant une panne attend que Jellyfin ait relu sa médiathèque** une fois les dossiers revenus — Vigie lance lui-même l'analyse ; ce qui n'en revient pas a bien été supprimé, et sa demande part\n- **Plus de limite à vingt titres** : supprimer beaucoup de titres d'un coup retire toutes leurs demandes, après la même vérification par Jellyfin\n### EN\n- **An outage is not a deletion**: before removing the request of a title that left, Vigie asks Jellyfin whether its library folders respond. An unplugged NAS, a lost share, a failed disk: nothing is removed, and the titles stay \"Requested\"\n- **What left during an outage waits for Jellyfin to rescan its library** once the folders are back — Vigie starts the scan itself; what doesn't come back was really deleted, and its request goes\n- **No more twenty-title limit**: deleting many titles at once removes all their requests, after the same check by Jellyfin",
+          "releaseDate": "2026-10-10"
+        },
+        {
           "version": "1.25.4",
           "minTentacleVersion": "1.25.0",
           "maxTentacleVersion": null,
