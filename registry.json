@@ -11,16 +11,16 @@
       "author": "Knaox",
       "repo": "Knaox/Tentacle-Plugin-Vigie",
       "icon": "",
-      "latestVersion": "1.24.2",
+      "latestVersion": "1.24.3",
       "versions": [
         {
-          "version": "1.24.2",
+          "version": "1.24.3",
           "minTentacleVersion": "0.9.0",
           "maxTentacleVersion": null,
-          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.24.2/plugin-vigie-v1.24.2.tar.gz",
-          "checksum": "sha256:a07a488a6e168fd0f305261e6a00502fec464655e8f6849639ff7291db50f951",
-          "changelog": "### FR\n- **Vos demandes ne peuvent plus disparaître au démarrage** : une base de données momentanément occupée ou lente ne provoque plus la suppression de la liste des demandes ; un souci se signale dans le journal du serveur, sans rien effacer\n- **Les listes de demandes paginées ne répètent ni ne sautent plus une demande**, et les classements des statistiques restent stables d'un affichage à l'autre\n### EN\n- **Your requests can no longer vanish at startup**: a briefly busy or slow database no longer wipes the request list; a problem is reported in the server log, with nothing erased\n- **Paginated request lists no longer repeat or skip a request**, and statistics rankings stay stable from one view to the next",
-          "releaseDate": "2026-10-08"
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.24.3/plugin-vigie-v1.24.3.tar.gz",
+          "checksum": "sha256:206656326911e595997c3ef64ff95df68a0c9636e6807bb6a4eeda709438a1d4",
+          "changelog": "### FR\n- **Un titre supprimé de Jellyfin n'est plus « Disponible »** : Vigie le voit dès que Jellyfin l'a perdu, sans attendre la synchronisation de Jellyseerr, et le dit « Demandé » tant que sa demande existe — partout : recherche, cartes de Tentacle, catalogue, fiche, Mes demandes\n- **Une demande supprimée dans Jellyseerr disparaît de Vigie en quelques secondes**, et le titre se redemande aussitôt, y compris depuis la barre de recherche de Tentacle\n- **Redemander un titre ou une saison supprimés fonctionne du premier coup** : plus de « déjà demandé » ni de « disponible » à tort\n- **Nouvelle option — « Supprimer la demande avec le titre »** (désactivée par défaut) : quand un titre est supprimé de Jellyfin, sa demande disparaît aussi de Vigie et de Jellyseerr, et Sonarr ou Radarr cessent de le surveiller. Une vague de suppressions d'un coup (disque débranché) n'emporte rien\n- Le hub se met à jour tout seul quand un titre ou une demande change, sans recharger la page\n- Version pour les serveurs Tentacle d'avant 1.25 ; voir une suppression dans Jellyfin demande Tentacle 1.19.1 ou plus récent\n### EN\n- **A title deleted from Jellyfin is no longer \"Available\"**: Vigie sees it as soon as Jellyfin loses it, without waiting for Jellyseerr's sync, and shows it \"Requested\" while its request exists — everywhere: search, Tentacle cards, catalog, details, My requests\n- **A request deleted in Jellyseerr leaves Vigie within seconds**, and the title can be requested again right away, including from Tentacle's search bar\n- **Requesting a deleted title or season again works the first time**: no more wrong \"already requested\" or \"available\"\n- **New option — \"Delete the request with the title\"** (off by default): when a title is deleted from Jellyfin, its request also leaves Vigie and Jellyseerr, and Sonarr or Radarr stop monitoring it. A sudden wave of deletions (unplugged disk) removes nothing\n- The hub updates on its own when a title or a request changes, no reload needed\n- For Tentacle servers older than 1.25; seeing a deletion in Jellyfin needs Tentacle 1.19.1 or later",
+          "releaseDate": "2026-10-10"
         },
         {
           "version": "1.25.1",
@@ -38,6 +38,15 @@
           "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.25.0/plugin-vigie-v1.25.0.tar.gz",
           "checksum": "sha256:0130e92f1a13aa77aa3abcdb3262ad73cf5d8cacc54b58f2e4c88a2d52aa4250",
           "changelog": "### FR\n- **Vigie suit Tentacle sur sa nouvelle base de données** : cette version exige Tentacle 1.25 ou plus récent ; vos demandes, réglages et comptes passent tels quels, rien ne change à l'usage\n- **Le plafond de demandes par jour suit l'heure du serveur**, quelle que soit celle de la base de données\n- Les serveurs Tentacle plus anciens ne se voient plus jamais proposer une version de Vigie qu'ils ne peuvent pas faire tourner\n### EN\n- **Vigie follows Tentacle onto its new database**: this version requires Tentacle 1.25 or later; your requests, settings and accounts carry over as they are, nothing changes in use\n- **The daily request limit follows the server's clock**, whatever the database's time zone\n- Older Tentacle servers are never offered a Vigie version they cannot run",
+          "releaseDate": "2026-10-08"
+        },
+        {
+          "version": "1.24.2",
+          "minTentacleVersion": "0.9.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.24.2/plugin-vigie-v1.24.2.tar.gz",
+          "checksum": "sha256:a07a488a6e168fd0f305261e6a00502fec464655e8f6849639ff7291db50f951",
+          "changelog": "### FR\n- **Vos demandes ne peuvent plus disparaître au démarrage** : une base de données momentanément occupée ou lente ne provoque plus la suppression de la liste des demandes ; un souci se signale dans le journal du serveur, sans rien effacer\n- **Les listes de demandes paginées ne répètent ni ne sautent plus une demande**, et les classements des statistiques restent stables d'un affichage à l'autre\n### EN\n- **Your requests can no longer vanish at startup**: a briefly busy or slow database no longer wipes the request list; a problem is reported in the server log, with nothing erased\n- **Paginated request lists no longer repeat or skip a request**, and statistics rankings stay stable from one view to the next",
           "releaseDate": "2026-10-08"
         },
         {
