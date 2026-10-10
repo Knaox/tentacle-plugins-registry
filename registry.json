@@ -23,6 +23,15 @@
           "releaseDate": "2026-10-10"
         },
         {
+          "version": "1.25.4",
+          "minTentacleVersion": "1.25.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.25.4/plugin-vigie-v1.25.4.tar.gz",
+          "checksum": "sha256:091023846864451185d783870e89d7f21bdbea503b0f3b7943ab6f8b8b1ed542",
+          "changelog": "### FR\n- **Nouveau réglage — « Une série supprimée part en entier »** (désactivé par défaut) : quand une série est supprimée de Jellyfin, sa demande part entièrement, même pour les saisons et épisodes encore attendus — Sonarr cesse de la surveiller, ses prochaines sorties n'arrivent pas. Elle se redemande aussitôt, en entier ou saison par saison. Une redemande faite depuis n'est jamais touchée\n### EN\n- **New setting — \"A deleted series goes entirely\"** (off by default): when a series is deleted from Jellyfin, its whole request goes, even for seasons and episodes still on their way — Sonarr stops monitoring it, its next releases don't come. It can be requested again right away, whole or season by season. A request made since is never touched",
+          "releaseDate": "2026-10-10"
+        },
+        {
           "version": "1.25.3",
           "minTentacleVersion": "1.25.0",
           "maxTentacleVersion": null,
