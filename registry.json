@@ -23,6 +23,15 @@
           "releaseDate": "2026-10-10"
         },
         {
+          "version": "1.27.1",
+          "minTentacleVersion": "1.28.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.27.1/plugin-vigie-v1.27.1.tar.gz",
+          "checksum": "sha256:2f2cc0a7230a5a32860b5826e69772bddd4b823c8a227cbc41da71da401c1918",
+          "changelog": "### FR\n- **Des aperçus presque instantanés** : la mini-carte paraît plus tôt et sa vidéo joue dès qu'elle paraît ; avec Tentacle 1.30.0, les affiches à l'écran font préparer leur aperçu d'avance par le serveur — le survol d'un titre à demander n'attend plus\n### EN\n- **Near-instant previews**: the mini card shows up sooner and its video plays as soon as it does; with Tentacle 1.30.0, the posters on screen have their preview prepared ahead by the server — hovering a title to request no longer waits",
+          "releaseDate": "2026-10-15"
+        },
+        {
           "version": "1.27.0",
           "minTentacleVersion": "1.28.0",
           "maxTentacleVersion": null,
