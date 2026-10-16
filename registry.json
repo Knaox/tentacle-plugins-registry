@@ -23,6 +23,15 @@
           "releaseDate": "2026-10-10"
         },
         {
+          "version": "1.29.0",
+          "minTentacleVersion": "1.30.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.29.0/plugin-vigie-v1.29.0.tar.gz",
+          "checksum": "sha256:8d7b4ade8411a0c9e24afa66558d634e6ff70ab6898e87e10390f9135ee9159c",
+          "changelog": "### FR\n- **L'aperçu au survol suit le délai choisi dans Tentacle** : la mini-carte d'un titre à demander paraît au même moment que l'aperçu des cartes de la bibliothèque — 800 ms par défaut, à régler dans les réglages de Tentacle\n- Le délai réglable arrive avec Tentacle 1.30.0 ; avec une version plus ancienne, l'aperçu garde son rythme d'avant\n### EN\n- **The hover preview follows the delay chosen in Tentacle**: the mini card of a title to request shows up at the same moment as the preview of library cards — 800 ms by default, adjustable in Tentacle's settings\n- The adjustable delay comes with Tentacle 1.30.0; with an older version, the preview keeps its previous timing",
+          "releaseDate": "2026-10-16"
+        },
+        {
           "version": "1.28.0",
           "minTentacleVersion": "1.30.0",
           "maxTentacleVersion": null,
