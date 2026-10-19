@@ -23,6 +23,15 @@
           "releaseDate": "2026-10-10"
         },
         {
+          "version": "1.30.0",
+          "minTentacleVersion": "1.30.0",
+          "maxTentacleVersion": null,
+          "downloadUrl": "https://github.com/Knaox/Tentacle-Plugin-Vigie/releases/download/v1.30.0/plugin-vigie-v1.30.0.tar.gz",
+          "checksum": "sha256:227d1479519867dd94d7429e9bf3850f23c8ce5b874a0d4ae24b6c7ff1b46def",
+          "changelog": "### FR\n- **Le résumé des titres à demander sur les téléviseurs** : la carte ouverte d'un film ou d'une série absent de la bibliothèque montre son résumé, en phrases entières, au lieu d'une zone vide\n- Les listes ne l'attendent jamais : les résumés déjà connus arrivent aussitôt, les autres se remplissent en arrière-plan\n### EN\n- **Summaries of titles to request on TVs**: the open card of a movie or show missing from the library shows its summary, in full sentences, instead of an empty area\n- Lists never wait for it: known summaries show up right away, the others fill in in the background",
+          "releaseDate": "2026-10-19"
+        },
+        {
           "version": "1.29.0",
           "minTentacleVersion": "1.30.0",
           "maxTentacleVersion": null,
